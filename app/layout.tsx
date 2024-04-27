@@ -9,10 +9,10 @@ export const metadata: Metadata = {
     default: "usman.com",
     template: "%s | usman.com",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "Full-Stack Web Developer",
   openGraph: {
     title: "usman.com",
-    description: "Co-founder of unkey.dev and founder of planetfall.io",
+    description: "Full-Stack Web Developer",
     url: "https://usman.com",
     siteName: "usman.com",
     images: [
