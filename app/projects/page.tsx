@@ -20,9 +20,9 @@ export default async function ProjectsPage() {
     return acc;
   }, {} as Record<string, number>);
 
-  const featured = allProjects.find((project) => project.slug === "hyperui")!;
-  const top2 = allProjects.find((project) => project.slug === "pdf-to-csv")!;
-  const top3 = allProjects.find((project) => project.slug === "blogify")!;
+  const featured = allProjects.find((project) => project.slug === "saas-project")!;
+  const top2 = allProjects.find((project) => project.slug === "hyperui")!;
+  const top3 = allProjects.find((project) => project.slug === "pdf-to-csv")!;
   const sorted = allProjects
     .filter((p) => p.published)
     .filter(
